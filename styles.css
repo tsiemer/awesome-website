@@ -1,0 +1,134 @@
+/*navigation bar*/
+.Header{
+    width:100%;
+}
+.topnav{
+    background-color:#4c516d;
+    overflow:hidden;   
+}
+.topnav a {
+    float:left;
+    display:block;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:box-shadow;
+    font-size:20px;
+    color:#4c516d;
+
+}
+li a:hover{
+    background-color:#6C5878;
+}
+li a {
+    display:block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:box-shadow;
+    font-family:'Architects Daughter';
+
+    display: inline-block;
+    color: #4c516d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left:30px;
+}
+ul {
+    list-style-type:inline;
+    overflow: auto;
+    background-color: #FFFFE0;
+    font-family:'Architects Daughter';
+    list-style-type: none;
+    margin:;
+    padding-left:1000px;
+    width: 100%;
+
+} 
+a{
+    text-decoration:none;
+    border-radius:10px;
+    padding:6px;
+    color:#4c516d;
+    font-family:'Architects Daughter';
+    padding-left:160px;
+}
+.li2{
+    padding-left:60px;}
+    /*title*/
+.category-info{
+        text-align:left;
+        overflow:auto;
+        margin-bottom: 20px;
+    }
+#logo{
+    text-align:center;
+    font-size:100px;
+    font-family:'Roboto';
+}
+h1{
+     text-shadow:6px 6px 7px #000000;
+}
+/*colored space 1*/
+.space{
+    background:#4c516d;
+    width:100%;
+    height:300px;
+    color:white;
+    padding-top:10px;
+    text-shadow:3px;
+}
+.space2{
+    background:#4c516d;
+    width:100%;
+    height:300px;
+    color:white;
+}
+.paragraph{
+    padding:100px;
+    padding-top:60px;
+    font-size:50px;
+    padding-left:170px;
+    font-family:'Architects Daughter';
+}
+.paragraph2{
+    padding:100px;
+    padding-top:60px;
+    font-size:50px;
+    padding-left:170px;
+    font-family:'Architects Daughter';
+}
+/*parallax*/
+.headphones{
+    background-image: url("headphones.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.piano{
+      background-image: url("piano.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.Header{
+     background-image: url("piano-header.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sheet{
+    background-image: url("sheet-music.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
